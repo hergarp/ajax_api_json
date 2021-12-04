@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Saját név</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="szerkezet.css">
+        <link rel="stylesheet" href="termekek.css">
+        <link rel="stylesheet" href="kosar.css">
+        <link rel="stylesheet" href="admin.css">
+        <link rel="stylesheet" href="fizetes.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <script src="termekek.js"></script>
+        <script src="kosar.js"></script>
+        <script src="ajax.js"></script>
+
+
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Volvo Oldtimer Áruház</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="effect" href="index.html">Kezdőlap</a>
+                    </li>
+                    <li>
+                        <a class="effect" href="fizetes.html">Fizetés</a>
+                    </li>
+                    <li></li>
+                    <li>
+                        <a class="effect" href="admin.html">Admin</a>
+                    </li>
+                </ul>
+            </nav>
+            <article>
+
+                <section class="termekek">
+                   
+                </section>
+                <section class="kosar">
+                    <h3>A Kosár tartalma</h3>
+                    <div id="kosaram"></div>
+                    <span id="osszar"></span>
+
+                    <a href="fizetes.html">
+                        <button class="fizet">
+                            Tovább a fizetéshez...
+                        </button>
+                    </a>
+
+                </section>
+                <section class="szures">
+                    <!-- <form>
+                        <legend>Rendezés</legend>
+                        <label for="terméknév">Rendezés szempontja</label>
+                    </form> -->
+                
+                    <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search2">
+                        <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                     
+                      <select name="cars" id="cars">
+                        <option value="200">200-as típus</option>
+                        <option value="1800">1800-as típus</option>
+                        <option value="260">260-s széria</option>
+                      </select>
+                    </form>
+                
+                </section>
+            </article>
+            <footer>
+                <p>Hergár Péter &#169;</p>
+                <div class="termek">
+                    <h3 class="termeknev">Lorem ipsum dolor</h3>
+                    <img src="kepek/kep_1.jpeg" alt="" class="kep"/>
+                    <p class="leiras">
+                        sit amet consectetur adipisicing elit. Sit natus nobis, earum aperiam nesciunt incidunt vero omnis rerum necessitatibus, fugiat doloribus cum sequi animi consectetur soluta! Saepe eaque sunt aliquid? Dolorum magni inventore similique enim obcaecati eius
+                                                                        fugit animi, accusantium cum excepturi deserunt amet.
+                    </p>
+                    <button class="kosarba">Kosárba</button>
+                    <span class="ar">125</span>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
